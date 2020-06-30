@@ -6,7 +6,8 @@ Used libraries are:
 
 CSV data link : https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28original%29
 
-After opening the application run app.py python file. A web page will be opened from the browser where these input value below should be given.
+After opening the application run app.py python file. A web page  will be opened from the browser where these input value below should be given.
+or, you can past this link http://127.0.0.1:5000/
 
 1. Sample code number: id number
 2. Clump Thickness: 1 - 10
