@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/styles.css')}}">
+
+</head>
+<body>
+
+<header>
+    <h2>Breast Cancer Detector</h2>
+</header>
+<p style="color:blue;font-size:20;text-align:center;">
+    <b>Results of breast cancer checking</b>
+</p>
+<div class="results">
+    {% if prediction == 4%}
+    <h2 style="color:red;">Positive for breast cancer</h2>
+    {% elif prediction == 2%}
+    <h2 style="color:blue;">No breast cancer</h2>
+    {% endif %}
+
+</div>
+</body>
+</html>
